@@ -7,6 +7,8 @@ import org.springframework.boot.test.OutputCapture;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import javax.annotation.Resource;
+
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -17,7 +19,9 @@ public class DemoApplicationTests {
 
     @Rule
     public OutputCapture outputCapture = new OutputCapture();
-    private DemoApplication demoApplication = new DemoApplication();
+
+    @Resource
+    private DemoApplication demoApplication;
 
     @Test
     public void contextLoads() {
