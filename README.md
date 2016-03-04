@@ -1,3 +1,8 @@
+# Status
+
+[![Build Status](https://travis-ci.org/marcopaga/first.svg?branch=master)](https://travis-ci.org/marcopaga/first)
+[![Build Status](https://travis-ci.org/marcopaga/first.svg?branch=multi)](https://travis-ci.org/marcopaga/first)
+
 # Tools
 
 - Java 8
