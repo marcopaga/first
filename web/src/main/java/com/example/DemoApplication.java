@@ -20,7 +20,8 @@ public class DemoApplication {
 	@PostConstruct
 	protected void sample(){
 		Entity entity = new Entity("Value");
-		LOGGER.info("The value of the entity: '{}'", entity.getValue());
+		LOGGER.info(
+				"The value of the entity: '{}'", entity.getValue());
 
 	}
 }
